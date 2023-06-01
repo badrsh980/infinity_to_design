@@ -1,0 +1,58 @@
+<script>
+import { useForm } from "@inertiajs/vue3";
+import InputLabel from "@/Components/InputLabel.vue";
+import InputError from "@/Components/InputError.vue";
+import AdminLayout from "@/Layouts/AdminLayout.vue";
+
+export default {
+    data() {
+        return {
+            form: useForm({
+                {{columns}}
+            }),
+        };
+    },
+    props: {
+        {{model}}: Object
+    },
+    components: {
+        InputError,
+        InputLabel,
+    },
+    methods: {
+        update() {
+
+            this.form.post(route("admin.{{model}}s.update"), {
+                preserveScroll: true,
+                onError: (errors) => {
+                    console.log(errors);
+                },
+            });
+        },
+    },
+    mounted()
+    {
+        {{columns_update}}
+    }
+};
+</script>
+
+<template>
+    <AdminLayout>
+
+    <div class="w-3/4 mx-auto p-4 bg-white">
+        <form @submit.prevent="update">
+            {{inputs}}
+
+            <div class="mb-4">
+                <button
+                    class="py-2 px-4 border bg-primary-light text-white"
+                >
+                    <span>{{$t('message.submit')}}</span>
+                </button>
+            </div>
+        </form>
+    </div>
+
+    </AdminLayout>
+</template>

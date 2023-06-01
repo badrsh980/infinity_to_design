@@ -1,0 +1,31 @@
+body
+    font-family: 'Tajawal', sans-serif !important
+    font-size: 15px
+    direction: rtl
+.border-1
+    border-width: 1px
+.border-b-1
+    border-bottom-width: 1px
+
+.slide-fade-enter-active
+    transition: all 0.3s ease-out
+
+.slide-fade-leave-active
+    transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1)
+
+.slide-fade-enter-from,
+.slide-fade-leave-to
+    transform: translateY(20px)
+    opacity: 0
+
+.cat-item
+    &::before
+        content: ""
+        display: block
+        position: absolute
+        left: 0
+        top: 0
+        background: #000
+        opacity: 0.4
+        height: 100%
+        width: 100%

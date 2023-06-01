@@ -1,0 +1,81 @@
+{
+    "One Day": "يوم واحد",
+    "Two Days": "يومان",
+    "Three Days": "ثلاثة أيام",
+    "Four Days": "أربعة أيام",
+    "Five Days": "خمسة أيام",
+    "Six Days": "ستة أيام",
+    "One Week": "أسبوع واحد",
+    "Two Weeks": "أسبوعان",
+    "Three Weeks": "ثلاثة اسابيع",
+    "One Month": "شهر واحد",
+    "For an additional $:dollars on the price of the service": "مقابل :dollars دولارات إضافية على سعر الخدمة",
+    "Time will be increased": "سيزيد من مدة التنفيذ",
+    "Time will not be increased": "لن يغير مدة التنفيذ",
+    "inactive": "غير نشطة",
+    "pending": "معلقة",
+    "order": "طلبية",
+    "withdraw": "سحب",
+    "refund": "إرجاع",
+    "completed": "مكتملة",
+    "paypal": "بايبال",
+    "bank": "الحساب البنكي",
+    "card": "البطاقة",
+    "Select Country": "اختر دولتك",
+    "Old Password Incorrect": "كلمة السر الحالية غير صحيحة",
+    "Profile has been updated": "تم تعديل الملف الشخصي",
+    "Profile Image has been updated": "تم تعديل صورة الحساب",
+    "Message has been sent": "تم إرسال الرسالة بنجاح",
+    "active": "نشط",
+
+    "Pending": "معلق",
+    "Active": "نشط",
+    "Inactive": "غير نشط",
+
+    "User has been created.": "تمت إضافة المستخدم بنجاح",
+    "User has been updated.": "تم تعديل المستخدم بنجاح",
+    "User has been deleted.": "تم حذف المستخدم بنجاح",
+
+    "Gig has been deleted": "تم حذف الخدمة بنجاح",
+
+    "Category has been created.": "تمت إضافة التصميف بنجاح",
+    "Category has been updated.": "تمت تعديل التصميف بنجاح",
+
+    "Message has been deleted.": "تم حذف الرسالة بنجاح",
+
+    "Post has been created.": "تمت إضافة الموضوع بنجاح",
+    "Post has been updated.": "تم تعديل الموضوع بنجاح",
+
+    "Review has been deleted.": "تم حذف التقييم بنجاح",
+
+    "Arabic": "العربية",
+    "English": "الانجليزية",
+
+    "Request has been created!": "تم إنشاء الطلب بنجاح",
+    "Request has been updated!": "تم تعديل الطلب بنجاح",
+    "Request has been deleted!": "تم حذف الطلب بنجاح",
+
+    "Your Order Has been created": "تم إنشاء طلبيتك بنجاح",
+    "You have new order": "لديك طلبية جديدة",
+
+    "Your gig has been approved": "تم قبول خدمتك",
+    "If you're having trouble clicking the ':actionText' button, copy and paste the URL below into your web browser:": "إن كان لديك مشكل في الرابط المرجو نسخه من هنا :actionText ولصقه في متصفحك",
+    "Regards": "تحياتي",
+    "Hello!": "مرحبا!",
+    "Whoops!": "خطأ!",
+
+    "Verify Email Address": "تأكيد البريد الالكتروني",
+    "Please click the button below to verify your email address.": "المرجو النقر على الرابط لتأكيد بريدك الالكتروني",
+    "If you did not create an account, no further action is required.": "إن لم يكن انت من قام بالتسجيل فلا تقم بأي خطوة",
+
+    "canceled": "ألغي",
+    "delivered": "تم التوصيل",
+    "rejected": "تم رفضها",
+
+    "Thanks for your review": "شكرا لك على تقييمك",
+    "All rights reserved.": "جميع الحقوق محفوظة",
+    "Post has been deleted": "تم حذف الموضوع او الصفحة",
+
+    "Yes": "نعم",
+    "No": "لا"
+}
